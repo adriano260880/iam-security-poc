@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: document-service
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://dev-whrzfyripp481nj5.us.auth0.com/
+
+security:
+  jwt:
+    audience: https://dev-whrzfyripp481nj5.us.auth0.com/api/v2/
